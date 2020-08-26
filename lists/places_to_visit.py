@@ -1,0 +1,13 @@
+places = ['jerusalem', 'london', 'newyork', 'singapore', 'dubai']
+print(f"The cities I would like to visit are:\n\t\t\t\t\t{places}")
+print(f"The cities I would like to visit alphabetically:\n\t\t\t\t\t{sorted(places)}")
+print(f"Here is the original order of the list:\n\t\t\t\t\t{places}")
+print(f"The cities I would like to visit sorted in reverse:\n\t\t\t\t\t{sorted(places, reverse=True)}")
+print(f"Here is the original order of the list:\n\t\t\t\t\t{places}")
+places.reverse()
+print(places)
+places.reverse()
+print(places)
+places.sort()
+print(f"Here is list of places to visit sorted permanentyly:{places}")
+print(places)

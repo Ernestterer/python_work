@@ -1,0 +1,11 @@
+rivers = ['kipsonoi', 'tabaita', 'chemosit', 'amalo', 'kipchorian']
+print(rivers)
+rivers.sort()
+print(rivers)
+sorted(rivers, reverse=True)
+print(rivers)
+rivers.reverse()
+print(rivers)
+print(len(rivers))
+rivers.reverse()
+print(rivers)
